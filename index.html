@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cẩm nang Âm dương sư</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        .head {
+            min-height: 100vh;
+        }
+
+        .skill {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .skin {
+            background-color: rgba(0, 0, 0, 0.95);
+        }
+
+        .bg-img {
+            background-image: url(img/362skin1.webp);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .skin-img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-out;
+        }
+
+        #videoBG {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body class="text-center">
+    <video autoplay loop muted id="videoBG">
+        <source src="video/RPReplay_Final1713122423.mov" type="video/mp4">
+    </video>
+    <div class="head bg-black text-white">
+        <div class="mb-2">
+            <video class="w-100 shadow-lg" autoplay loop muted>
+                <source src="video/RPReplay_Final1713122423.mov"
+                    type="video/mp4">
+            </video>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-md-6 row align-content-center">
+                <div class="d-flex justify-content-center">
+                    <img src="img/SP.webp">
+                    <h1>Frosty Yuki Onna</h1>
+                </div>
+                <div>
+                    <audio class="shadow-lg rounded-pill" controls autoplay loop>
+                        <source src="audio/y2mate.com - Onmyoji  Frosty Yuki Onna Music Video The Voice of Snow.mp3"
+                            type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+            <div class="col-md-6"><img src="img/362skin1.webp" class="w-100" alt=""></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="p-1 p-md-3">
+            <div class="p-1 p-md-3 rounded shadow-lg skin text-white">
+                <h1>Trang phục</h1>
+                <div class="row p-3">
+                    <div class="col-md-6">
+                        <img src="img/362skin1.webp" class="skin-img" width="100%" alt="">
+                        <video class="w-100 rounded shadow-lg" autoplay loop muted>
+                            <source src="video/RPReplay_Final1713122423.mov" type="video/mp4">
+                        </video>
+                        <span>Trang phục mặc định</span>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/362skin2.webp" class="skin-img" width="100%" alt="">
+                        <video class="w-100 rounded shadow-lg" autoplay loop muted>
+                            <source src="video/RPReplay_Final1713122499.mov" type="video/mp4">
+                        </video>
+                        <span class="p-1 rounded bg-warning bg-gradient shadow-lg text-black">Đặc biệt</span>
+                        <span>Trái tim hổ phách</span>
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col-md-6">
+                        <img src="img/362skin3.webp" class="skin-img" width="100%" alt="">
+                        <video class="w-100 rounded shadow-lg" autoplay loop muted>
+                            <source src="video/RPReplay_Final1713122543.mov" type="video/mp4">
+                        </video>
+                        <span>Thục quỳ vô danh</span>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/362skin3v2.webp" class="skin-img" width="100%" alt="">
+                        <video class="w-100 rounded shadow-lg" autoplay loop muted>
+                            <source src="video/RPReplay_Final1713122583.mov" type="video/mp4">
+                        </video>
+                        <span class="p-1 rounded bg-dark bg-gradient tebl shadow-lg">Cao cấp</span>
+                        <span>Thục quỳ vô danh</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-2 p-3 row">
+                <h1 class="mb-2">Thông số cơ bản</h1>
+                <table class="skill table-borderless shadow-lg rounded">
+                    <thead>
+                        <tr>
+                            <td class="rounded rounded-bottom-0 rounded-end-0"></td>
+                            <td>
+                                <p>Level 1</p>
+                                <img class="rounded-circle" src="img/362a.webp">
+                            </td>
+                            <td class="rounded rounded-bottom-0 rounded-start-0">
+                                <p>Max level</p>
+                                <img class="rounded-circle" src="img/362a.webp">
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="img/ATK.webp" alt="">
+                                Tấn công
+                            </td>
+                            <td>
+                                <img src="img/S.webp" alt="">
+                                142
+                            </td>
+                            <td>
+                                <img src="img/S.webp" alt="">
+                                3002 <small class="text-danger">+2860</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/HP.webp" alt="">
+                                Máu
+                            </td>
+                            <td>
+                                <img src="img/C.webp" alt="">
+                                939
+                            </td>
+                            <td>
+                                <img src="img/C.webp" alt="">
+                                10026 <small class="text-danger">+9087</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/DEF.webp" alt="">
+                                Phòng thủ
+                            </td>
+                            <td>
+                                <img src="img/A.webp" alt="">
+                                75
+                            </td>
+                            <td>
+                                <img src="img/A.webp" alt="">
+                                441 <small class="text-danger">+366</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/SPD.webp" alt="">
+                                Tốc độ
+                            </td>
+                            <td>
+                                <img src="img/A.webp" alt="">
+                                109
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/CRIT.webp" alt="">
+                                Chí mạng
+                            </td>
+                            <td>
+                                <img src="img/A.webp" alt="">
+                                8%
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/CDMG.webp" alt="">
+                                Sát thương chí mạng
+                            </td>
+                            <td>150%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/HIT.webp" alt="">
+                                Hiệu ứng đòn đánh
+                            </td>
+                            <td>0%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="rounded rounded-top-0 rounded-end-0">
+                                <img src="img/RES.webp" alt="">
+                                Kháng hiệu ứng
+                            </td>
+                            <td>0%</td>
+                            <td class="rounded rounded-top-0 rounded-start-0"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="m-2">
+                <h1 class="mb-2">Kỹ năng</h1>
+                <div class="mb-2 p-1 skill bg-gradient shadow-lg rounded d-flex">
+                    <img class="col-2 col-md-1 rounded-circle shadow-lg" src="img/3621.webp" alt="">
+                    <div class="col row align-items-center">
+                        <h3>Ngọc vang vọng</h3>
+                    </div>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded d-flex align-items-center">
+                    <div class="col-4 d-flex flex-wrap justify-content-around">
+                        <div class="m-1 p-2 bg-warning bg-gradient rounded shadow-lg">Sát thương</div>
+                    </div>
+                    <div class="col-4 d-flex flex-wrap justify-content-center">
+                        <img src="img/Onibi.webp" alt="">
+                        <div>0</div>
+                    </div>
+                    <div class="col-4">Thời gian hồi chiêu: 0 hiệp</div>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded">
+                    <div class="text-secondary">Nghe này, đó là âm thanh của băng nứt.</div>
+                    <div>Frosty Yuki Onna tạo ra một phi tiêu băng trong tay và ném nó vào một kẻ thù, gây sát thương bằng
+                        100%
+                        <img src="img/ATK.webp" alt=""> tấn công của cô ấy.
+                    </div>
+                </div>
+                <div class="mb-5 p-1 bg-gradient shadow-lg rounded">
+                    <div>Level 2. Tăng sát thương lên đến 105%</div>
+                    <div>Level 3. Tăng sát thương lên đến 110%</div>
+                    <div>Level 4. Tăng sát thương lên đến 115%</div>
+                    <div>Level 5. Tăng sát thương lên đến 125%</div>
+                </div>
+                <div class="mb-2 p-1 skill bg-gradient shadow-lg rounded d-flex">
+                    <img class="col-2 col-md-1 rounded-circle shadow-lg" src="img/3622a.webp" alt="">
+                    <div class="col row align-items-center">
+                        <h3>Hơi thở băng giá</h3>
+                    </div>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded d-flex align-items-center">
+                    <div class="col-4 d-flex flex-wrap justify-content-center">
+                        <div class="m-1 p-2 bg-warning bg-gradient shadow-lg rounded">Sát thương</div>
+                        <div class="m-1 p-2 bg-warning bg-gradient shadow-lg rounded">Hỗ trợ</div>
+                        <div class="m-1 p-2 bg-warning bg-gradient shadow-lg rounded">Đặc biệt</div>
+                    </div>
+                    <div class="col-4 d-flex flex-wrap justify-content-center">
+                        <img src="img/Onibi.webp" alt="">
+                        <div>0</div>
+                    </div>
+                    <div class="col-4">
+                        Thời gian hồi chiêu: 0 hiệp
+                    </div>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded">
+                    <p class="text-secondary">Nơi gió đắng thổi, mọi thứ đều đóng băng.</p>
+                    <p class="fw-bolder text-primary">Hiệu quả độc quyền.</p>
+                    <p class="text-start">
+                        Kỹ năng tự động: Tăng <img src="img/DEF.webp" alt=""> phòng thủ của tất cả các đồng minh lên 30%.
+                        Vào
+                        cuối lượt của đồng
+                        minh hoặc kẻ thù (không tính các
+                        thực thể được triệu hồi), Frosty Yuki Onna tạo ra một <img src="img/Buff100.webp"> <span
+                            class="fw-bolder text-danger">băng
+                            hoa</span>.
+                        Khi một thức thần đồng minh khác
+                        với cô ấy bị hạ gục, họ trở thành <span class="fw-bolder">băng thi</span> để chiếm vị trí ban đầu
+                        của
+                        họ.
+                    </p>
+                    <p class="text-start">
+                        Kỹ năng kích hoạt: Nếu có thức thần đồng minh trong trạng thái <span class="fw-bolder">băng
+                            thi</span>
+                        trên chiến trường,
+                        hồi sinh tất cả thức thần đồng minh trong trạng thái <span class="fw-bolder">băng thi</span> và
+                        <span class="fw-bolder text-primary">phục hồi</span>
+                        <img src="img/HP.webp" alt=""> Máu của họ đến mức đầy. Sau khi sử dụng kỹ năng này, nó
+                        được chuyển đổi thành kỹ năng <span class="fw-bolder">sự xuất hiện của mùa xuân</span>.
+                    </p>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded">
+                    <p class="text-start"><img src="img/Buff100.webp" alt=""> <span class="fw-bolder text-danger">Băng
+                            hoa</span> - Nếu Frosty Yuki Onna không thể hành động, cô ấy phát ra một
+                        tân tinh băng mỗi khi cô ấy có 6 điểm cộng dồn, gây <span class="fw-bolder text-primary">sát thương
+                            gián
+                            tiếp</span> cho tất cả đồng minh và kẻ thù khác
+                        ngoài cô ấy bằng 100% <img src="img/ATK.webp" alt=""> tấn công của cô ấy. Điều này không kích hoạt
+                        các
+                        kỹ năng bị động của họ.</p>
+                    <p class="text-start"><span class="fw-bolder text-primary">Hiệu quả độc quyền</span> - Nếu nhiều thức
+                        thần
+                        cùng tên nằm trong đội hình của bạn, chỉ một trong những kỹ năng của thức thần đó sẽ có hiệu quả.
+                    </p>
+                    <p class="text-start"><span class="fw-bolder text-primary">Phục hồi</span> - Khác với Hồi máu. Không bị
+                        ảnh
+                        hưởng bởi các hiệu ứng Giảm hồi máu. Không kích hoạt các hiệu ứng liên quan đến Hồi máu và không thể
+                        bị
+                        hạ gục chí mạng.</p>
+                    <p class="text-start"><span class="fw-bolder text-primary">Sát thương gián tiếp</span> - Một loại sát
+                        thương
+                        - Không kích hoạt hiệu ứng linh hồn, không thể chia sẻ và chắc chắn sẽ tấn công chí mạng vào kẻ thù
+                        với
+                        0 <img src="img/DEF.webp" alt=""> phòng thủ.</p>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded">
+                    <div>Level 2. Tăng 50% sát thương của tân tinh băng lên kẻ địch trong trạng thái <img
+                            src="img/Debuff64.webp" alt=""> <span class="fw-bolder text-primary">đóng băng</span>.</div>
+                    <div>Level 3. Mỗi đồng minh trong trạng thái <span class="fw-bolder">băng thi</span> tăng 50 <img
+                            src="img/SPD.webp" alt=""> tốc độ cho Forsty Yuki Onna.</div>
+                    <div>Level 4. Tân tinh băng gây sát thương giảm 30% đối với đồng minh.</div>
+                    <div>Level 5. Nhận thêm 3 <img src="img/Buff100.webp" alt=""> <span class="fw-bolder text-danger">băng
+                            hoa</span> vào cuối lượt của bản thân.</div>
+                </div>
+                <div class="mb-2 p-1 skill bg-gradient shadow-lg rounded d-flex">
+                    <img class="col-2 col-md-1 rounded-circle shadow-lg" src="img/3622b.webp" alt="">
+                    <div class="col row align-items-center">
+                        <h3>Sự xuất hiện của mùa xuân</h3>
+                    </div>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded d-flex align-items-center">
+                    <div class="col-4 d-flex flex-wrap justify-content-center">
+                        <div class="m-1 p-2 bg-warning bg-gradient shadow-lg rounded">Hỗ trợ</div>
+                    </div>
+                    <div class="col-4 d-flex flex-wrap justify-content-center">
+                        <div>Bị động</div>
+                    </div>
+                    <div class="col-4">
+                        Thời gian hồi chiêu: 0 hiệp
+                    </div>
+                </div>
+                <div class="mb-5 p-1 bg-gradient shadow-lg rounded">
+                    <p class="fw-bolder text-primary">Hiệu quả độc quyền.</p>
+                    <p class="text-start">Nơi gió xuân thổi, mọi thứ trở nên sống động. Tăng 20% sát thương và 20 tốc độ của
+                        tất
+                        cả đồng minh.</p>
+                </div>
+                <div class="mb-2 p-1 skill bg-gradient shadow-lg rounded d-flex">
+                    <img class="col-2 col-md-1 rounded-circle shadow-lg" src="img/3623.webp" alt="">
+                    <div class="col row align-items-center">
+                        <h3>Mùa đông vĩnh cửu</h3>
+                    </div>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded d-flex align-items-center">
+                    <div class="col-4 d-flex flex-wrap justify-content-center">
+                        <div class="m-1 p-2 bg-warning bg-gradient shadow-lg rounded">Sát thương</div>
+                        <div class="m-1 p-2 bg-warning bg-gradient shadow-lg rounded">Lá chắn</div>
+                        <div class="m-1 p-2 bg-warning bg-gradient shadow-lg rounded">Kiểm soát</div>
+                    </div>
+                    <div class="col-4 d-flex flex-wrap justify-content-center">
+                        <img src="img/Onibi.webp" alt="">
+                        <div>3</div>
+                    </div>
+                    <div class="col-4">
+                        Thời gian hồi chiêu: 0 hiệp
+                    </div>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded">
+                    <p class="text-secondary">Tuyết trên đỉnh núi sẽ không bao giờ tan.</p>
+                    <p class="text-start">Frosty Yuki Onna biến thành một khối băng lạnh để tấn công một kẻ thù, gây sát
+                        thương
+                        bằng 100% <img src="img/ATK.webp" alt=""> tấn công của cô ấy và khiến hắn vào trạng thái <img
+                            src="img/Debuff64.webp" alt=""> <span class="fw-bolder text-primary">đóng băng</span>. Cô
+                        ấy nhận được <img src="img/Buff101.webp" alt=""> <span class="fw-bolder text-danger">khiên
+                            băng</span>.
+                        Trạng thái <img src="img/Debuff64.webp" alt=""> <span class="fw-bolder text-primary">đóng
+                            băng</span> mà kẻ địch đang chịu ảnh hưởng chỉ kết thúc khi cô ấy mất <img
+                            src="img/Buff101.webp" alt=""> <span class="fw-bolder text-danger">khiên băng</span>.</p>
+                    <p class="text-start">Kỹ năng này không thể được sử dụng nếu đã tồn tại một kẻ địch đang trong trạng
+                        thái
+                        <img src="img/Debuff64.webp" alt=""> <span class="fw-bolder text-primary">đóng băng</span> trên
+                        chiến trường.
+                    </p>
+                </div>
+                <div class="mb-2 p-1 bg-gradient shadow-lg rounded">
+                    <p class="text-start"><img src="img/Buff101.webp" alt=""> <span class="fw-bolder text-danger">Khiên
+                            băng</span> - Một lá chắn không thể bị xua tan. Biến mất khi bắt đầu lượt của Frosty Yuki Onna.
+                        Hấp thụ sát thương bằng 120% <img src="img/ATK.webp" alt=""> tấn công của cô ấy.</p>
+                    <p class="text-start"><img src="img/Debuff64.webp" alt=""> <span class="fw-bolder text-primary">Đóng
+                            băng</span> - Không thể hành động cho đến lượt tiếp theo của Frosty Yuki Onna. Không thể bị phản
+                        hiệu ứng, xua tan hoặc loại bỏ.</p>
+                    <p class="text-start"><span class="fw-bolder text-primary">Trên cơ</span> - Hành động ngay tức khắc khi
+                        bắt đầu trận chiến.</p>
+                </div>
+                <div class="p-1 bg-gradient shadow-lg rounded">
+                    <div>Level 2. Trạng thái <img src="img/Debuff64.webp" alt=""> <span class="fw-bolder text-primary">đóng
+                            băng</span> cũng gây ra hiệu ứng khoá thanh hành động.</div>
+                    <div>Level 3. Lượng hấp thụ sát thương của <img src="img/Buff101.webp" alt=""> <span
+                            class="fw-bolder text-danger">khiên băng</span> tăng đến 135% <img src="img/ATK.webp" alt="">
+                        tấn công của Frosty Yuki Onna.</div>
+                    <div>Level 4. <img src="img/Buff101.webp" alt=""> <span class="fw-bolder text-danger">Khiên băng</span>
+                        cung cấp 100% kháng chí mạng.</div>
+                    <div>Level 5. <span class="fw-bolder text-primary">Trên cơ</span>: Nhận <img src="img/Buff101.webp"
+                            alt=""> <span class="fw-bolder text-danger">khiên băng</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
